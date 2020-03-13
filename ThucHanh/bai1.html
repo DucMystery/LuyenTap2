@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+  <script>
+      let n1=0;
+      let n2 =1;
+      let n3;
+      let number= parseInt(prompt("Mời bạn nhập vào số lượng phần tử:"));
+      for (let i=2;i<number;i++){
+          n3=n1+n2;
+          document.write(n3+ " ");
+          n1=n2;
+          n2=n3;
+      }
+  </script>
+</body>
+</html>
